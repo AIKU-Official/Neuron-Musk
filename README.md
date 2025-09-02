@@ -12,10 +12,9 @@
 또한 서로 다른 종류의 뉴런들(예: 교감신경 vs 비교감신경)은 각각 다른 진폭의 신호를 보인다고 알려져 있습니다.
 
 따라서 입력된 신호를 먼저 <노이즈/스파이크>로 분류하고, 이후 스파이크들을 <뉴런#1, 뉴런#2...> 등으로 구분하는 모델을 만들고자 합니다.
-위
-<div align="center">
+
 ![위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.](https://img.notionusercontent.com/s3/prod-files-secure%2Fcaac11a1-578d-4638-bf54-1d47cd3de8ed%2Fac846088-ac7a-4151-99c0-12776fb4216a%2Fimage.png/size/w=2000?exp=1756923799&sig=ykyCJPcM7E_CoHDHUzrRYPRZONr8EMN89xtY8LRYqeI&id=262a7930-e09c-806e-8213-ebd7cf626f3c&table=block)
-</div>
+
 위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.
 
 ## 목표
@@ -45,7 +44,7 @@ SYNTH_MONOTRODE라는 데이터에는 아래 그림과 같은 데이터가 총 1
 각 데이터에는 trace 뿐 아니라 그 데이터 내에서 몇 개의 뉴런이 발화하였는지, spike의 프레임, 종류가 무엇인지와 같은 데이터가 들어있습니다. |
 |  |  |
 
-![해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/3d5c568e-e2d7-4099-b6a7-5b6724af625f/image.png?table=block&id=262a7930-e09c-80c3-b50c-c418d51df20e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756944000000&signature=3YCvVlnXZiFQAvWU-8fpmWhq1Go8TwcnrjojHOZ8SNA&downloadName=image.png)
+![해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/3d5c568e-e2d7-4099-b6a7-5b6724af625f/image.png?table=block&id=262a7930-e09c-80c3-b50c-c418d51df20e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756864800000&signature=GH6PE5-FFI037wAQagxR-tsI6K0ee-u9C1siPDCPzU8&downloadName=image.png)
 
 해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다
 
