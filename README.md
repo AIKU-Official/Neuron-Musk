@@ -14,7 +14,7 @@
 따라서 입력된 신호를 먼저 <노이즈/스파이크>로 분류하고, 이후 스파이크들을 <뉴런#1, 뉴런#2...> 등으로 구분하는 모델을 만들고자 합니다.
 위
 
-![위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/ac846088-ac7a-4151-99c0-12776fb4216a/image.png?table=block&id=262a7930-e09c-806e-8213-ebd7cf626f3c&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756944000000&signature=2gZGH209aJiQVhuIgXE5Xn-RRGUMzoHR5uRagHmoRUA&downloadName=image.png)
+![위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.]([https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/ac846088-ac7a-4151-99c0-12776fb4216a/image.png?table=block&id=262a7930-e09c-806e-8213-ebd7cf626f3c&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756944000000&signature=2gZGH209aJiQVhuIgXE5Xn-RRGUMzoHR5uRagHmoRUA&downloadName=image.png](https://img.notionusercontent.com/s3/prod-files-secure%2Fcaac11a1-578d-4638-bf54-1d47cd3de8ed%2Fac846088-ac7a-4151-99c0-12776fb4216a%2Fimage.png/size/w=2000?exp=1756923799&sig=ykyCJPcM7E_CoHDHUzrRYPRZONr8EMN89xtY8LRYqeI&id=262a7930-e09c-806e-8213-ebd7cf626f3c&table=block))
 
 위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.
 
