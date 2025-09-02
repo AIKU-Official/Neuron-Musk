@@ -14,7 +14,7 @@
 따라서 입력된 신호를 먼저 <노이즈/스파이크>로 분류하고, 이후 스파이크들을 <뉴런#1, 뉴런#2...> 등으로 구분하는 모델을 만들고자 합니다.
 위
 
-![위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.](attachment:ac846088-ac7a-4151-99c0-12776fb4216a:image.png)
+![위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.]([attachment:ac846088-ac7a-4151-99c0-12776fb4216a:image.png](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/ac846088-ac7a-4151-99c0-12776fb4216a/image.png?table=block&id=262a7930-e09c-806e-8213-ebd7cf626f3c&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756944000000&signature=2gZGH209aJiQVhuIgXE5Xn-RRGUMzoHR5uRagHmoRUA&downloadName=image.png))
 
 위와 같은 파이프라인으로 Spike Sorting은 진행됩니다.
 
@@ -45,7 +45,7 @@ SYNTH_MONOTRODE라는 데이터에는 아래 그림과 같은 데이터가 총 1
 각 데이터에는 trace 뿐 아니라 그 데이터 내에서 몇 개의 뉴런이 발화하였는지, spike의 프레임, 종류가 무엇인지와 같은 데이터가 들어있습니다. |
 |  |  |
 
-![해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다](attachment:3d5c568e-e2d7-4099-b6a7-5b6724af625f:image.png)
+![해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/3d5c568e-e2d7-4099-b6a7-5b6724af625f/image.png?table=block&id=262a7930-e09c-80c3-b50c-c418d51df20e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756944000000&signature=3YCvVlnXZiFQAvWU-8fpmWhq1Go8TwcnrjojHOZ8SNA&downloadName=image.png)
 
 해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다
 
@@ -136,12 +136,19 @@ spike의 wavelet transform 계수입니다.
 - BCE Loss, Adam, 에폭 수 8
 
 Epoch 1/8, Loss: 0.2513, Test Acc: 0.9137
+
 Epoch 2/8, Loss: 0.2075, Test Acc: 0.9181
+
 Epoch 3/8, Loss: 0.1990, Test Acc: 0.9176
+
 Epoch 4/8, Loss: 0.1949, Test Acc: 0.9197
+
 Epoch 5/8, Loss: 0.1918, Test Acc: 0.9211
+
 Epoch 6/8, Loss: 0.1898, Test Acc: 0.9209
+
 Epoch 7/8, Loss: 0.1877, Test Acc: 0.9219
+
 Epoch 8/8, Loss: 0.1860, Test Acc: 0.9235
 
 **Accuracy = 0.9235, Precision = 0.9255**
@@ -151,37 +158,69 @@ Epoch 8/8, Loss: 0.1860, Test Acc: 0.9235
 **총 6444개의 waveform에 대하여 학습을 진행하였고, 11194개의 waveform에 대하여 테스트를 진행하였습니다.**
 
 [epoch 01] loss=8.4440
+
 [epoch 02] loss=8.6010
+
 [epoch 03] loss=8.4435
+
 [epoch 04] loss=9.0735
+
 [epoch 05] loss=8.1072
+
 [epoch 06] loss=7.1415
+
 [epoch 07] loss=6.4022
+
 [epoch 08] loss=6.5096
+
 [epoch 09] loss=6.6290
+
 [epoch 10] loss=6.3136
+
 [epoch 11] loss=6.5737
+
 [epoch 12] loss=6.0055
+
 [epoch 13] loss=6.7682
+
 [epoch 14] loss=6.0323
+
 [epoch 15] loss=5.8371
+
 [epoch 16] loss=5.1776
+
 [epoch 17] loss=4.9795
+
 [epoch 18] loss=5.0266
+
 [epoch 19] loss=4.8911
+
 [epoch 20] loss=5.2379
+
 [epoch 21] loss=4.9260
+
 [epoch 22] loss=4.6464
+
 [epoch 23] loss=4.3462
+
 [epoch 24] loss=4.4797
+
 [epoch 25] loss=4.6215
+
 [epoch 26] loss=4.6868
+
 [epoch 27] loss=4.3982
+
 [epoch 28] loss=4.5831
+
 [epoch 29] loss=4.3171
+
 [epoch 30] loss=4.5996
+
 [Cluster] metrics: {'ARI': 0.7857059890384587, 'NMI': 0.8221826133994493}
+
 [Cluster] Accuracy: 0.8867
+
 [Summary] clusters (id:count) — first 12: {-1: 1051, 0: 202, 1: 79, 2: 111, 3: 80, 4: 46, 5: 162, 6: 58, 7: 49, 8: 110, 9: 62, 10: 47}
 
 ## 결과
