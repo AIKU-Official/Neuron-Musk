@@ -48,30 +48,23 @@ SYNTH_MONOTRODE라는 데이터에는 아래 그림과 같은 데이터가 총 1
 
 해당 데이터에 대해 다른 모델들의 accuracy입니다. 상기 모델들이 quiroga_easy 데이터(노이즈가 적은 데이터)에 대해서는 98%, 97%같은 높은 수치를 보여주고 있습니다. 상대적으러 노이즈가 큰 데이터에 대해서는 최대 80%정도의 accuracy를 보여주고 있습니다
 
-![SYNTH_MONOTRODE 데이터 중 하나, (144,000,)의 shape을 가지며, 3 개의 다른 뉴런이 발화한 데이터](attachment:7e5b4550-4cab-4027-a512-0e2798ef280a:image.png)
+![SYNTH_MONOTRODE 데이터 중 하나, (144,000,)의 shape을 가지며, 3 개의 다른 뉴런이 발화한 데이터](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/7e5b4550-4cab-4027-a512-0e2798ef280a/image.png?table=block&id=262a7930-e09c-80a0-b2c7-d1648ddce85a&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1756864800000&signature=9KhvZihfmlRUtrf0yFSVVKCVR3B3laIPTkRl54pP88Q&downloadName=image.png)
 
 SYNTH_MONOTRODE 데이터 중 하나, (144,000,)의 shape을 가지며, 3 개의 다른 뉴런이 발화한 데이터
 
-![위 전체 trace 중 일부(맨위), 300~6000hZ의 주파수만 걸러낸 신호(중간), 나머지 대역의 신호(맨 하단)](attachment:3664bd37-0cc3-46d4-ae88-986cada3c344:image.png)
+![위 전체 trace 중 일부(맨위), 300~6000hZ의 주파수만 걸러낸 신호(중간), 나머지 대역의 신호(맨 하단)](https://aiku.notion.site/image/attachment%3A3664bd37-0cc3-46d4-ae88-986cada3c344%3Aimage.png?table=block&id=262a7930-e09c-808f-8525-d210a0a3576a&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=1010&userId=&cache=v2)
 
 위 전체 trace 중 일부(맨위), 300~6000hZ의 주파수만 걸러낸 신호(중간), 나머지 대역의 신호(맨 하단)
 
-![spike만을 추출한 waveform의 일부입니다.](attachment:1d593aa8-6d52-4065-a022-53223c22ca73:image.png)
+![spike만을 추출한 waveform의 일부입니다.]([attachment:1d593aa8-6d52-4065-a022-53223c22ca73:image.png](https://aiku.notion.site/image/attachment%3A1d593aa8-6d52-4065-a022-53223c22ca73%3Aimage.png?table=block&id=262a7930-e09c-80cf-a38d-fee56e0a0037&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2))
 
-spike만을 추출한 waveform의 일부입니다.
+| ![Spike](https://aiku.notion.site/image/attachment%3A1d593aa8-6d52-4065-a022-53223c22ca73%3Aimage.png?table=block&id=262a7930-e09c-80cf-a38d-fee56e0a0037&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) | ![Noise](https://aiku.notion.site/image/attachment%3A33eb18f7-dd60-4306-859e-efe4c68c0b9f%3Aimage.png?table=block&id=262a7930-e09c-8018-9cda-e74252b5454e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) |
+|----------------------------------------|-----------------------------------------|
+| spike만 추출한 waveform                | noise를 추출한 waveform                 |
 
-![noise를 추출한 waveform의 일부입니다.](attachment:33eb18f7-dd60-4306-859e-efe4c68c0b9f:image.png)
-
-noise를 추출한 waveform의 일부입니다.
-
-![spike의 wavelet transform 계수입니다.
-노란색, 초록색이 wavelet transform 계수, 파란색은 원본 신호입니다.
-](attachment:a0811e94-d5a6-466c-9046-742adabd432b:image.png)
-
-spike의 wavelet transform 계수입니다.
-노란색, 초록색이 wavelet transform 계수, 파란색은 원본 신호입니다.
-
-![image.png](attachment:aadad27d-cd74-4ca9-91ec-ce9910f79c50:image.png)
+| ![Mixed1](https://aiku.notion.site/image/attachment%3Aa0811e94-d5a6-466c-9046-742adabd432b%3Aimage.png?table=block&id=262a7930-e09c-8094-a406-df5c0a4d96dc&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) | ![Mixed2](https://aiku.notion.site/image/attachment%3Aaadad27d-cd74-4ca9-91ec-ce9910f79c50%3Aimage.png?table=block&id=262a7930-e09c-80cf-a042-cb5306019079&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) |
+|------------------------------------------|-------------------------------------------|
+| 혼합 데이터 예시 1                       | 혼합 데이터 예시 2                        |
 
 ## 모델링
 
@@ -86,14 +79,14 @@ spike의 wavelet transform 계수입니다.
 저주파부터 고주파 성분까지 총 3개의 계수 리스트가 생성됩니다.
 - 각 리스트에 대하여 1D CNN을 진행합니다.
     
-    ![Spike Detection Pipeline](attachment:17473bda-d96b-4e0c-b885-2eddf10543ec:a63cf81e-258f-4bdf-a480-5885a6c1d22a.png)
+    ![Spike Detection Pipeline](https://aiku.notion.site/image/attachment%3A17473bda-d96b-4e0c-b885-2eddf10543ec%3Aa63cf81e-258f-4bdf-a480-5885a6c1d22a.png?table=block&id=262a7930-e09c-80a6-a377-d0ef63adaa7b&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=950&userId=&cache=v2)
     
     Spike Detection Pipeline
     
 
 ### Feature Extraction & Clustering
 
-![image.png](attachment:2ed8fb6a-957a-417b-be8e-f303e0384c69:image.png)
+![image.png](https://aiku.notion.site/image/attachment%3A2ed8fb6a-957a-417b-be8e-f303e0384c69%3Aimage.png?table=block&id=262a7930-e09c-800e-ac77-ce3316b36afe&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=1010&userId=&cache=v2)
 
 | **단계** | **Input** | **Output** |
 | --- | --- | --- |
@@ -226,21 +219,21 @@ Epoch 8/8, Loss: 0.1860, Test Acc: 0.9235
 
 ### Spike Detection
 
-![image.png](attachment:c26bbc61-97fc-4362-8197-cd8d21c31cc8:image.png)
+![image.png](attachment:c26bbc61-97fc-4362-8197-cd8d21c31cc8:image.png](https://aiku.notion.site/image/attachment%3Ac26bbc61-97fc-4362-8197-cd8d21c31cc8%3Aimage.png?table=block&id=262a7930-e09c-804b-904d-e9ff6de2c8cc&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=690&userId=&cache=v2)
 
 노이즈가 어느 정도 들어가는 것보다 Spike가 노이즈로 분류되지 않도록 하는 것이 더 중요한데, Precision이 0.9255로 약 8%의 spike가 노이즈로 분류되었습니다.
 
 ### Feature Extraction & Clustering
 
-![accuracy 90%](attachment:82830cd2-1c29-49e4-88a0-39741a1ffa77:KakaoTalk_20250901_135546462.png)
+![accuracy 90%](https://aiku.notion.site/image/attachment%3A82830cd2-1c29-49e4-88a0-39741a1ffa77%3AKakaoTalk_20250901_135546462.png?table=block&id=262a7930-e09c-8062-ab53-ce7f97cfb87f&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=1010&userId=&cache=v2)
 
 accuracy 90%
 
-![accuracy 80%](attachment:e4ee075f-1441-4dd1-89ba-246b0dc34dc2:KakaoTalk_20250901_135554038.png)
+![accuracy 80%](https://aiku.notion.site/image/attachment%3Ae4ee075f-1441-4dd1-89ba-246b0dc34dc2%3AKakaoTalk_20250901_135554038.png?table=block&id=262a7930-e09c-8066-b693-f2eb0a4c6c7e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=1010&userId=&cache=v2)
 
 accuracy 80%
 
-![image.png](attachment:338bae37-944f-4014-8a6c-797dd38bc0f7:image.png)
+![image.png](https://aiku.notion.site/image/attachment%3A338bae37-944f-4014-8a6c-797dd38bc0f7%3Aimage.png?table=block&id=262a7930-e09c-8065-aeb7-ca56a1f34cda&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=1010&userId=&cache=v2)
 
 ## 한계 분석
 
