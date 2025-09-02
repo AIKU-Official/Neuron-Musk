@@ -56,7 +56,7 @@ SYNTH_MONOTRODE 데이터 중 하나, (144,000,)의 shape을 가지며, 3 개의
 
 위 전체 trace 중 일부(맨위), 300~6000hZ의 주파수만 걸러낸 신호(중간), 나머지 대역의 신호(맨 하단)
 
-![spike만을 추출한 waveform의 일부입니다.]([attachment:1d593aa8-6d52-4065-a022-53223c22ca73:image.png](https://aiku.notion.site/image/attachment%3A1d593aa8-6d52-4065-a022-53223c22ca73%3Aimage.png?table=block&id=262a7930-e09c-80cf-a38d-fee56e0a0037&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2))
+![spike만을 추출한 waveform의 일부입니다.](https://aiku.notion.site/image/attachment%3A1d593aa8-6d52-4065-a022-53223c22ca73%3Aimage.png?table=block&id=262a7930-e09c-80cf-a38d-fee56e0a0037&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2)
 
 | ![Spike](https://aiku.notion.site/image/attachment%3A1d593aa8-6d52-4065-a022-53223c22ca73%3Aimage.png?table=block&id=262a7930-e09c-80cf-a38d-fee56e0a0037&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) | ![Noise](https://aiku.notion.site/image/attachment%3A33eb18f7-dd60-4306-859e-efe4c68c0b9f%3Aimage.png?table=block&id=262a7930-e09c-8018-9cda-e74252b5454e&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=460&userId=&cache=v2) |
 |----------------------------------------|-----------------------------------------|
