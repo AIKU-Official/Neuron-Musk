@@ -79,7 +79,7 @@ SYNTH_MONOTRODE 데이터 중 하나, (144,000,)의 shape을 가지며, 3 개의
 저주파부터 고주파 성분까지 총 3개의 계수 리스트가 생성됩니다.
 - 각 리스트에 대하여 1D CNN을 진행합니다.
     
-    ![Spike Detection Pipeline](https://aiku.notion.site/image/attachment%3A17473bda-d96b-4e0c-b885-2eddf10543ec%3Aa63cf81e-258f-4bdf-a480-5885a6c1d22a.png?table=block&id=262a7930-e09c-80a6-a377-d0ef63adaa7b&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=950&userId=&cache=v2)
+![Spike Detection Pipeline](https://aiku.notion.site/image/attachment%3A17473bda-d96b-4e0c-b885-2eddf10543ec%3Aa63cf81e-258f-4bdf-a480-5885a6c1d22a.png?table=block&id=262a7930-e09c-80a6-a377-d0ef63adaa7b&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=950&userId=&cache=v2)
     
     Spike Detection Pipeline
     
@@ -219,7 +219,7 @@ Epoch 8/8, Loss: 0.1860, Test Acc: 0.9235
 
 ### Spike Detection
 
-![image.png](attachment:c26bbc61-97fc-4362-8197-cd8d21c31cc8:image.png](https://aiku.notion.site/image/attachment%3Ac26bbc61-97fc-4362-8197-cd8d21c31cc8%3Aimage.png?table=block&id=262a7930-e09c-804b-904d-e9ff6de2c8cc&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=690&userId=&cache=v2)
+![image.png](https://aiku.notion.site/image/attachment%3Ac26bbc61-97fc-4362-8197-cd8d21c31cc8%3Aimage.png?table=block&id=262a7930-e09c-804b-904d-e9ff6de2c8cc&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&width=690&userId=&cache=v2)
 
 노이즈가 어느 정도 들어가는 것보다 Spike가 노이즈로 분류되지 않도록 하는 것이 더 중요한데, Precision이 0.9255로 약 8%의 spike가 노이즈로 분류되었습니다.
 
