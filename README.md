@@ -264,3 +264,10 @@ accuracy 80%
 1. 비교할 만한 모델을 찾아서 성능을 제대로 비교
 2. Spike Detection 모델과 Clustering 모델을 합치기
 3. SSM을 주력으로 하는 end-to-end 모델을 개발
+
+## 팀원
+  | 팀원                            | 역할                                       |
+| ----------------------------- | ---------------------------------------- |
+| [최우재](https://github.com/)     |  spike detection 구현   |
+| [김지연](https://github.com/delaykimm)        |    feature extraction&spike clutering 구현   |
+| [조윤지](https://github.com/robosun78) |   성능 평가    |
