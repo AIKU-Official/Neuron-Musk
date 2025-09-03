@@ -1,0 +1,3 @@
+# ninja log v7
+0	29114	1756303091418259723	/home/aikusrv04/neuron_classification/s4/extensions/kernels/build/temp.linux-x86_64-cpython-310/cauchy.o	6c6ba755e3becc3d
+1	48678	1756303091422259771	/home/aikusrv04/neuron_classification/s4/extensions/kernels/build/temp.linux-x86_64-cpython-310/cauchy_cuda.o	6e32a30e0273a501
